@@ -4,6 +4,7 @@ import { NextSeo, DefaultSeo } from 'next-seo'
 const HeadSeo = () => {
   return (
     <Head >
+      <meta name='viewport' content='width=device-width, initial-scale=1.0' />
       <link rel="shortcut icon" href="/Assets/Image/Home/logo.jpg" />
       {/* <!-- HTML Meta Tags --> */}
       <title>Mlem Coffee</title>
