@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import NormalText, { MediumText, TitleText } from "components/Text";
+import styled from 'styled-components'
+import NormalText, { MediumText, TitleText } from 'components/Text'
 const ContainerFooter = styled.div`
   margin-top: 50px !important;
   display: flex;
@@ -13,37 +13,37 @@ const ContainerFooter = styled.div`
     /* align-items: center; */
   }
 
-`;
+`
 
 export const Left = styled.div`
   max-width: 50%;
   @media screen and (max-width: 768px) {
     max-width: 100%;
   }
-`;
-export const About = styled(TitleText)`
+`
+export const About = styled( TitleText )`
   white-space: nowrap;
   font-size: 32px;
   @media screen and (min-width: 768px) {
     font-size: 24px;
   }
-`;
+`
 export const AboutDetails = styled.div`
   display: flex;
   flex-flow: column wrap;
   gap: 10px;
   margin-bottom: 20px;
-`;
-export const Des = styled(MediumText)`
+`
+export const Des = styled( MediumText )`
   white-space: nowrap;
-  cursor: ${(props) => props.isHover && "pointer"};
+  cursor: ${( props ) => props.isHover && 'pointer'};
   &.hasHover{
     &:hover{
       transform: scale(1.1);
     }
   }
-`;
-export const DesAbout = styled(MediumText)`
+`
+export const DesAbout = styled( MediumText )`
   white-space: nowrap;
   cursor: pointer;
   display: flex;
@@ -55,21 +55,21 @@ export const DesAbout = styled(MediumText)`
   &:hover{
       transform: scale(1.05);
     }
-`;
+`
 export const Right = styled.div`
   max-width: 48%;
   @media screen and (max-width: 768px) {
     max-width: 100%;
   }
-`;
+`
 export const ContainerMoreLink = styled.div`
   display: flex;
   flex-flow: row;
   gap: 15px;
-`;
+`
 export const ListSocial = styled.div`
   display: flex;
   flex-direction: row;
   gap: 15px;
-`;
-export default ContainerFooter;
+`
+export default ContainerFooter

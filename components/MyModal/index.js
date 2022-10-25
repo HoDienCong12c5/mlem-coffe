@@ -2,8 +2,8 @@ import React from 'react'
 import ModalBase from './style'
 import {CloseCircleOutlined } from '@ant-design/icons'
 class MyModal extends React.Component {
-  constructor (props) {
-    super(props)
+  constructor ( props ) {
+    super( props )
     this.state = {
       isShowModal: false,
       modalContent: null,
@@ -19,19 +19,19 @@ class MyModal extends React.Component {
     // code here
   }
 
-  openModal = (modalContent, config = { modalWidth: 500, closable: true, wrapClassName: '', maskStyle: {}, onAfterClose: null }) => {
-    this.setState({
+  openModal = ( modalContent, config = { modalWidth: 500, closable: true, wrapClassName: '', maskStyle: {}, onAfterClose: null } ) => {
+    this.setState( {
       isShowModal: true,
       modalContent,
       config
-    })
+    } )
   }
 
   closeModal = () => {
-    this.setState({
+    this.setState( {
       isShowModal: false,
       modalContent: null
-    })
+    } )
     const { customClose } = this.props
     customClose && customClose()
   }

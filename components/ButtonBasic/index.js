@@ -12,7 +12,7 @@ const ContainerBtn = styled.div`
     cursor: pointer;
   }
 `
-const ButtonCustom = styled(Button)`
+const ButtonCustom = styled( Button )`
   &.ant-btn{
     background-color: transparent ;
     background: transparent ;
@@ -30,7 +30,7 @@ const Icon = styled.img`
   width: 25px;
   height: 25px;
 `
-const ButtonBasic = ({
+const ButtonBasic = ( {
   onClick,
   icon,
   title = '',
@@ -40,7 +40,7 @@ const ButtonBasic = ({
   children = null,
   fontSize=14,
   fontBold=null,
-}) => {
+} ) => {
   return (
     <ContainerBtn onClick={onClick} className={className} style={style}>
       <ButtonCustom fontBold={fontBold} loading={isLoading} fontSize={fontSize}>

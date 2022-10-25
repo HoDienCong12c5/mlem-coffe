@@ -4,7 +4,7 @@ import NormalText, { MediumText, TitleText } from 'components/Text'
 import styled from 'styled-components'
 import { DivRow } from 'components/DivBase'
 import { Color } from 'common/constants'
-const HomeContainer = styled(DivRow)`
+const HomeContainer = styled( DivRow )`
   flex-flow: row wrap;
   justify-content: space-between;
   margin-top: 100px;
@@ -14,7 +14,7 @@ const HomeContainer = styled(DivRow)`
     gap: 30px;
   }
 `
-export const HomeInfor = styled(DivRow)`
+export const HomeInfor = styled( DivRow )`
   max-width: 30%;
   flex-flow: column wrap;
   gap: 20px;
@@ -29,7 +29,7 @@ export const TitleInfor = styled.h1`
   font-size: 42px;
   text-align: center;
 `
-export const Description = styled(MediumText)`
+export const Description = styled( MediumText )`
   line-height: 30px;
 `
 export const ProductMain = styled.div`
@@ -42,7 +42,7 @@ export const ProductMain = styled.div`
   }
 `
 
-export const Element = styled(DivRow)`
+export const Element = styled( DivRow )`
   max-width: 30%;
   flex-flow: column wrap;
   align-items: flex-start;
@@ -55,21 +55,21 @@ export const Element = styled(DivRow)`
     width:60%;
   }
 `
-export const TitleSub = styled(MediumText)``
-export const PriceBig = styled(TitleText)`
+export const TitleSub = styled( MediumText )``
+export const PriceBig = styled( TitleText )`
   font-size: 24px;
 `
-export const ImageBase = styled(Image)`
+export const ImageBase = styled( Image )`
   width: 100%;
 `
-export const ImageMain = styled(Image)`
+export const ImageMain = styled( Image )`
   border-radius: 50%;
 `
-export const Icon = styled(Image)`
+export const Icon = styled( Image )`
   width: 80px;
   height: 80px;
 `
-export const BtnBuy = styled(ButtonBasic)`
+export const BtnBuy = styled( ButtonBasic )`
   font-size: 20px;
   font-weight: bolder;
   color: white;

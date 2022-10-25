@@ -5,7 +5,7 @@ import { MediumText } from 'components/Text'
 import { Div } from 'components/DivBase'
 import ImageBase from 'components/Image'
 import ButtonBasic from 'components/ButtonBasic'
-const HeaderPage = styled(Div)`
+const HeaderPage = styled( Div )`
   height: 70px;
   border-bottom: 3px solid #F5F5F5;
 `
@@ -15,7 +15,7 @@ export const ContainerLogo = styled.div`
   align-items:center;
   display:flex;
 `
-export const ContainerHome = styled(MediumText)`
+export const ContainerHome = styled( MediumText )`
   width:100%;
   display:flex;
   justify-content: space-between;
@@ -24,13 +24,13 @@ export const ContainerHome = styled(MediumText)`
   height: 70px;
   padding: 10px 0px;
 `
-export const Right = styled(MediumText)`
+export const Right = styled( MediumText )`
   width:100px;
 `
-export const Image = styled(ImageBase)`
+export const Image = styled( ImageBase )`
   border-radius: 25px;
 `
-export const NameHost = styled(MediumText)`
+export const NameHost = styled( MediumText )`
   font-style: italic ;
   min-width: 100px;
 `
@@ -38,10 +38,10 @@ export const Left = styled.div`
 display: flex;
 flex-direction: row wrap;
 `
-export const ButtonMore = styled(ButtonBasic)`
+export const ButtonMore = styled( ButtonBasic )`
 
 `
-export const MenuHome = styled(Menu)`
+export const MenuHome = styled( Menu )`
   padding: 0px;
   gap:30px;
   display:flex ;

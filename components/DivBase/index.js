@@ -19,7 +19,7 @@ export const DivRaBase = styled.div`
   border-radius: var(--r);
   width: 100%;
 `
-export const DivAllBase = styled(DivRaBase)`
+export const DivAllBase = styled( DivRaBase )`
   --b: 1px solid ${Color.grey};
   border: var(--b);
   width: 100%;

@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-const ImageBase = ({
+const ImageBase = ( {
   src,
   alt = 'Picture of the author',
   quality = 50,
@@ -8,7 +8,7 @@ const ImageBase = ({
   height = 50,
   fullSize = false,
   ...props
-}) => {
+} ) => {
   return (
     <div
       style={{

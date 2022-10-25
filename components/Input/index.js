@@ -1,10 +1,10 @@
 import React from 'react'
 import { Input } from 'antd'
 import styled from 'styled-components'
-const InputBase = styled(Input)`
+const InputBase = styled( Input )`
   border-radius: 8px;
   border: 1px solid rgba(255, 255, 255, 0.7) !important;
-  padding: ${(props) => (props.suffix ? '7px 10px;' : '10px 10px')};
+  padding: ${( props ) => ( props.suffix ? '7px 10px;' : '10px 10px' )};
   color: white !important;
   &focus-visible,
   &:hover ,
@@ -17,14 +17,14 @@ const InputBase = styled(Input)`
     
   }
 `
-const InputTextArea = styled(InputBase.TextArea)`
+const InputTextArea = styled( InputBase.TextArea )`
   border-radius: 8px;
   &:focus,
   &:hover {
     border: 1px solid white !important;
   }
 `
-const InputPassword = styled(InputBase.Password)`
+const InputPassword = styled( InputBase.Password )`
 border-radius: 8px;
 border: 1px solid rgba(255, 255, 255, 0.7) !important;
 &:focus,
@@ -32,7 +32,7 @@ border: 1px solid rgba(255, 255, 255, 0.7) !important;
   border: 1px solid white !important;
 }
 `
-export const Inputs = ({
+export const Inputs = ( {
   placeholder,
   onChange,
   iconRight = null,
@@ -53,7 +53,7 @@ export const Inputs = ({
   password,
   iconRender,
   iconLeft = null
-}) => {
+} ) => {
   return textArea ? (
     <InputTextArea
       placeholder={placeholder}

@@ -11,7 +11,7 @@ width: 100%;
 `
 const AnyReactComponent = ( { text } ) =>
   <div style={{ background: 'red', padding: 10, borderRadius: 10 }}>
-    ''
+    ádasdasd
   </div>
 
 export default function GGMap ( {dataContact} ) {

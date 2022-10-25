@@ -22,17 +22,17 @@ export const ItemOther = styled.div`
   width:30%;
 
 `
-export const ImageCustom = styled(Image)`
+export const ImageCustom = styled( Image )`
   border-radius: 50%;
 
 `
-export const Title = styled(TitleText)`
+export const Title = styled( TitleText )`
   border-radius: 50%;
 `
-export const Details = styled(NormalText)`
+export const Details = styled( NormalText )`
   border-radius: 50%;
 `
-export const BtnMore = styled(ButtonBasic)`
+export const BtnMore = styled( ButtonBasic )`
   font-size: 20px;
   font-weight: bolder;
   color: white;

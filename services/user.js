@@ -1,9 +1,9 @@
 import axios from 'axios'
 const BASE_URL = ''
 const UserServices = {
-  getInfor: async (req, res) => {
+  getInfor: async ( req, res ) => {
     const url = `${BASE_URL}/api/user/getInfor`
-    const data = await axios({
+    const data = await axios( {
       method: 'GET',
       url,
       headers: {
@@ -13,7 +13,7 @@ const UserServices = {
       data: {
         id: req.params.id
       }
-    })
+    } )
   }
 }
 export default UserServices
