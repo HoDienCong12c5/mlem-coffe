@@ -1,0 +1,47 @@
+{
+    "presets": [
+        "@babel/preset-react",
+        [
+          "next/babel"
+        ]
+    ],
+    "plugins": [
+      ["module-resolver", {
+        "root": ["./"],
+        "alias": {
+          "common": "./common",
+          "pages": "./pages",
+          "controller":"./controller",
+          "components":"components",
+          "assets":"./assets",
+          "services":"./services",
+          "public":"./public"
+          
+        }
+      }],
+      [
+        "@babel/plugin-transform-arrow-functions"
+      ],
+      "@babel/plugin-syntax-dynamic-import"
+    ],
+      "include": [
+        "**/*.js"
+    ],
+     "env": {
+      "development": {
+        "plugins": [
+          [
+            "babel-plugin-styled-components",
+            {
+              "displayName": true
+            }
+          ]
+        ]
+      },
+      "production": {
+        "plugins": [
+          "transform-remove-console"
+        ]
+      }   
+  }
+}

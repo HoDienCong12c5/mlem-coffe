@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "common/*": ["./common/*"],
+      "components": ["./components/*"],
+      "controller": ["./controller/*"],
+      "pages": ["./pages/*"],
+      "assets":["./assets/*"],
+      "services":["./services/*"],
+      "public":["./public/*"]
+    }
+  },
+  "include": ["**/*.js", "components/Loading/index.jxs"]
+}
